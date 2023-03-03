@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MBC Drama 2022</title>
+	<link rel="stylesheet" href="mbc.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+	<header>
+		<h1>MBC Dramas 2022</h1>
+	</header>
+	<main class="dramas">
+        <section class="drama">
+			<img src="./mbcpictures/big-mouth.png" alt="Big Mouth">	
+			<div class="details">
+				<h2>Big Mouth</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./mbcpictures/doctor-lawyer.png" alt="Doctor Lawyer">
+			<div class="details">
+				<h2>Doctor Lawyer</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./mbcpictures/fanletter-please.png" alt="Fanletter, Please">
+			<div class="details">
+				<h2>Fanletter, Please</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./mbcpictures/forbidden-marriage.png" alt="Forbidden Marriage">
+			<div class="details">
+				<h2>Forbidden Marriage</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./mbcpictures/from-now-on-showtime.png" alt="From Now On Showtime">
+			<div class="details">
+				<h2>From Now On Showtime</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./mbcpictures/may-i-help-you.png" alt="May I Help You">
+			<div class="details">
+				<h2>May I Help You</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./mbcpictures/the-golden-spoon.png" alt="The Golden Spoon">
+			<div class="details">
+				<h2>The Golden Spoon</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./mbcpictures/tomorrow.png" alt="Tomorrow">
+			<div class="details">
+				<h2>Tomorrow</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./mbcpictures/tracer.png" alt="Tracer">
+			<div class="details">
+				<h2>Tracer</h2>
+			</div>
+		</section>
+	</main>
+</div>
+
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+</body>
+</html>

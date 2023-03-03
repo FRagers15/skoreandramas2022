@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KBS Drama 2022</title>
+	<link rel="stylesheet" href="kbs.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+	<header>
+		<h1>KBS Dramas 2022</h1>
+	</header>
+	<main class="dramas">
+        <section class="drama">
+			<img src="./kbspictures/bad-prosecutor.png" alt="Bad Prosecutor">	
+			<div class="details">
+				<h2>Bad Prosecutor</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./kbspictures/bloody-heart.png" alt="Bloody Heart">
+			<div class="details">
+				<h2>Bloody Heart</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./kbspictures/cafe-minamdang.png" alt="Cafe Minamdang">
+			<div class="details">
+				<h2>Cafe Minamdang</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./kbspictures/crazy-love.png" alt="Crazy Love">
+			<div class="details">
+				<h2>Crazy Love</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./kbspictures/curtain-call.png" alt="Curtain Call">
+			<div class="details">
+				<h2>Curtain Call</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./kbspictures/if-you-wish-upon-me.png" alt="If You Wish Upon Me">
+			<div class="details">
+				<h2>If You Wish Upon Me</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./kbspictures/jinxed-at-first.png" alt="Jinxed At First">
+			<div class="details">
+				<h2>Jinxed At First</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./kbspictures/love-all-play.png" alt="Love All Play">
+			<div class="details">
+				<h2>Love All Play</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./kbspictures/the-law-cafe.png" alt="The Law Cafe">
+			<div class="details">
+				<h2>The Law Cafe</h2>
+			</div>
+		</section>
+	</main>
+</div>
+
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+</body>
+</html>
