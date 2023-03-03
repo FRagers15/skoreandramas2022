@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SBS Drama 2022</title>
+	<link rel="stylesheet" href="sbs.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+	<header>
+		<h1>SBS Dramas 2022</h1>
+	</header>
+	<main class="dramas">
+        <section class="drama">
+			<img src="./sbspictures/again-my-life.png" alt="Again My Life">	
+			<div class="details">
+				<h2>Again My Life</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./sbspictures/business-proposal.png" alt="Business Proposal">
+			<div class="details">
+				<h2>Business proposal</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./sbspictures/cheer-up.png" alt="Cheer Up">
+			<div class="details">
+				<h2>Cheer Up</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./sbspictures/one-dollar-lawyer.png" alt="One Dollar Lawyer">
+			<div class="details">
+				<h2>One Dollar Lawyer</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./sbspictures/the-first-responders.png" alt="The First Responders">
+			<div class="details">
+				<h2>The First Responders</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./sbspictures/through-the-darkness.png" alt="Through The Darkness">
+			<div class="details">
+				<h2>Through The Darkness</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./sbspictures/todays-webtoon.png" alt="Today's Webtoon">
+			<div class="details">
+				<h2>Today's Webtoon</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./sbspictures/trolley.png" alt="Trolley">
+			<div class="details">
+				<h2>Trolley</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./sbspictures/why-her.png" alt="Why her?">
+			<div class="details">
+				<h2>Why Her?</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./sbspictures/woori-the-virgin.png" alt="Woori The Virgin">
+			<div class="details">
+				<h2>Woori The Virgin</h2>
+			</div>
+		</section>
+	</main>
+</div>
+
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+</body>
+</html>
