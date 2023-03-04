@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JTBC Drama 2022</title>
+	<link rel="stylesheet" href="jtbc.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+	<header>
+		<h1>JTBC Dramas 2022</h1>
+	</header>
+	<main class="dramas">
+        <section class="drama">
+			<img src="./jtbcpictures/cleaning-up.png" alt="Cleaning Up">	
+			<div class="details">
+				<h2>Cleaning Up</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./jtbcpictures/empire.png" alt="The Empire">
+			<div class="details">
+				<h2>The Empire</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./jtbcpictures/forecasting-love-and-weather.png" alt="Forecasting Love and Weather">
+			<div class="details">
+				<h2 class="flw">Forecasting Love and Weather</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./jtbcpictures/green-mothers-club.png" alt="Green Mothers' Club">
+			<div class="details">
+				<h2>Green Mothers' Club</h2>
+			</div>
+		</section>
+		<section class="drama">
+			<img src="./jtbcpictures/the-interest-of-love.png" alt="The Interest of Love">
+			<div class="details">
+				<h2>The Interest of Love</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./jtbcpictures/insider.png" alt="Insider">
+			<div class="details">
+				<h2>Insider</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./jtbcpictures/my-liberation-notes.png" alt="My Liberation Notes">
+			<div class="details">
+				<h2>My Liberation Notes</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./jtbcpictures/reborn-rich.png" alt="Reborn Rich">
+			<div class="details">
+				<h2>Reborn Rich</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./jtbcpictures/the-good-detective-two.png" alt="The Good Detective 2">
+			<div class="details">
+				<h2>The Good Detective 2</h2>
+			</div>
+		</section>
+        <section class="drama">
+			<img src="./jtbcpictures/thirty-nine.png" alt="Thirty Nine">
+			<div class="details">
+				<h2>Thirty Nine</h2>
+			</div>
+		</section>
+	</main>
+</div>
+
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+</body>
+</html>
